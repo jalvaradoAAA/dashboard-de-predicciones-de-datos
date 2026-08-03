@@ -1,0 +1,7 @@
+dashboard-de-predicciones-de-datos/
+├── app.py                   # Aplicación principal de Streamlit
+├── modules/
+│   ├── data_fetcher.py      # Módulo para Yahoo Finance y scraping de dividendos
+│   ├── indicators.py        # Cálculo de RSI, Promedios Móviles y Riesgo
+│   └── predictor.py         # Modelo ML / Prophet para proyección
+└── requirements.txt
